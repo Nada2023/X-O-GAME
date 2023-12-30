@@ -1,0 +1,43 @@
+.video{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+
+}
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui ;
+    margin: 150px auto;
+    color:beige;
+   font-weight: 600;
+  position: relative;
+
+}
+
+.title{
+    background-color:lightblue;
+    padding: 10px 0;
+    margin: 5px 0;
+
+}
+span{
+    color:#176B87;
+}
+.content{
+    width: 80px;
+    height: 80px;
+    background-color:lightblue ;
+    margin: 2px;
+    float: left;
+    font-size: 50px;
+}
+.content:hover{
+    background-color: #EEF5FF;
+    color: cornflowerblue;
+    cursor: pointer;
+}
